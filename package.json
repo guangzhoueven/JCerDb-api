@@ -1,0 +1,16 @@
+{
+  "name": "jcer-json",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init:local": "wrangler d1 execute jcer-json --local --file=./schema.sql",
+    "db:init:remote": "wrangler d1 execute jcer-json --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.24.0"
+  }
+}
