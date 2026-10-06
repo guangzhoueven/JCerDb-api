@@ -1,16 +1,16 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jcer-json",
-  "main": "src/index.js",
-  "compatibility_date": "2026-09-01",
-  "assets": {
-    "directory": "./public"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "jcer-json",
-      "database_id": "REPLACE_WITH_DATABASE_ID"
-    }
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "jcerdb-api",
+	"main": "src/index.js",
+	"compatibility_date": "2026-09-01",
+	"assets": {
+		"directory": "./public"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "jcer-json",
+			"database_id": "45075737-7e43-4de4-ad92-a242335a7e35"
+		}
+	]
 }
